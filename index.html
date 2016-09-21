@@ -7,7 +7,6 @@
 </head>
 <body bgcolor="Pink">
 <table id="GeoResults" name="GeoResults"></table>
-<div id="container">
 <script>
 $.getJSON("http://ip-api.com/json/?callback=?",function(data){
 	var table_body="";
@@ -17,6 +16,5 @@ $.getJSON("http://ip-api.com/json/?callback=?",function(data){
 	$("#GeoResults").html(table_body);
 });
 </script>
-</div>
 </body>
 </html>
